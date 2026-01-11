@@ -1,2 +1,4 @@
 # AtCoder
-AtCoderの解いたまとめを記録
+AtCoderの解いたまとめを記録\
+[https://atcoder.jp/users/Shin_Sushi](https://atcoder.jp/users/Shin_Sushi)\
+[AtCoder Problems](https://kenkoooo.com/atcoder/#/table/Shin_Sushi)
