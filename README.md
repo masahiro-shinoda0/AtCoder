@@ -5,3 +5,10 @@ AtCoderの解いたまとめを記録\
 
 ## C++
 [レファレンス](https://cpprefjp.github.io/reference.html)
+
+### 入出力
+
+## Python
+[レファレンス](https://docs.python.org/ja/3/reference/index.html)
+
+### 入出力
