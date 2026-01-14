@@ -1,7 +1,12 @@
 # AtCoder
 AtCoderの解いたまとめを記録\
 [https://atcoder.jp/users/Shin_Sushi](https://atcoder.jp/users/Shin_Sushi)\
-[AtCoder Problems](https://kenkoooo.com/atcoder/#/table/Shin_Sushi)
+[AtCoder Problems](https://kenkoooo.com/atcoder/#/table/Shin_Sushi)\
+
+このレポジトリをローカル環境にクローンするには以下を実行．
+```
+git clone https://github.com/masahiro-shinoda0/AtCoder.git
+```
 
 ## C++
 [レファレンス](https://cpprefjp.github.io/reference.html)
