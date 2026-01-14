@@ -1,9 +1,9 @@
 # AtCoder
 AtCoderの解いたまとめを記録\
-[https://atcoder.jp/users/Shin_Sushi](https://atcoder.jp/users/Shin_Sushi)\
-[AtCoder Problems](https://kenkoooo.com/atcoder/#/table/Shin_Sushi)\
+AtCoderのマイページ：[https://atcoder.jp/users/Shin_Sushi](https://atcoder.jp/users/Shin_Sushi)\
+AtCoder Problems：[https://kenkoooo.com/atcoder/#/table/Shin_Sushi](https://kenkoooo.com/atcoder/#/table/Shin_Sushi)
 
-(GitHubの使い方)[readme/HowToUseGitHub.md]
+[GitHubの使い方](/readme/HowToUseGitHub.md)
 
 ## C++
 [レファレンス](https://cpprefjp.github.io/reference.html)
@@ -35,7 +35,7 @@ cout << "\n"
 #include <iostream>
 using namespace std;
 ```
-こうすることで，`cout::`と書かなくても良い．`calc_sum.cpp`では，`for`を使用して，配列を入力し，和を出力する関数を実装している．
+こうすることで，`cout::`と書かなくても良い．[`calc_sum.cpp`](/cpp/1_in_out/calc_sum.cpp)では，`for`を使用して，配列を入力し，和を出力する関数を実装している．
 
 ### ファイル入出力
 ファイル入出力には，ターミナル上で行うものとプログラム上で行うものがある．以下はターミナル上で行うものの例である．まず入力．
