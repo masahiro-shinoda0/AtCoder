@@ -10,28 +10,28 @@ AtCoder Problems：[https://kenkoooo.com/atcoder/#/table/Shin_Sushi](https://ken
 
 ### 入出力
 入出力には，以下をインクルードする．
-```
+```C++
 #include <iostream>
 ```
 入力は，例えば整数値のときは次のようにする．
-```
+```C++
 int x;
 std::cin >> x;
 ```
 出力は，以下のようにする．
-```
+```C++
 std::cout >> x;
 ```
 改行をしたい時は以下のようにする．
-```
+```C++
 cout << endl;
 ```
 または
-```
+```c++
 cout << "\n"
 ```
 インクルードのときに，以下のように名前空間を設定すると良い．
-```
+```C++
 #include <iostream>
 using namespace std;
 ```
@@ -39,44 +39,44 @@ using namespace std;
 
 ### ファイル入出力
 ファイル入出力には，ターミナル上で行うものとプログラム上で行うものがある．以下はターミナル上で行うものの例である．まず入力．
-```
+```C++
 ./a.out < input.txt
 ```
 次に出力
-```
+```C++
 ./a.out > output.txt
 ```
 
 プログラム上でファイルの入出力を行う場合には，`#include <fstream>`とする．まず、ファイルを開くためのストリームを作成．
-```
+```C++
 ifstream in("input.txt");
 ```
 次のようにエラー処理をしても良い．
-```
+```C++
 if (!in) {
   cerr << "ファイルが見つかりません" << endl;
   return 1; // 異常終了
 }
 ```
 入力には`cin`ではなく`in`を使う．
-```
+```C++
 int n;
-  in >> n;
+in >> n;
 ```
 プログラム終了を明示的に書いても良い．
-```
+```C++
 in.close();
 ```
 出力の場合も似たような流れである．まず，書き込み用のファイルを作成する．
-```
+```C++
 ofstream out("output.txt");
 ```
 書き込みには，`cout`ではなく`out`を使う．
-```
+```C++
 out << n << endl;
 ```
 プログラム終了を明示的に書いても良い．
-```
+```C++
 out.close();
 ```
 
