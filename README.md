@@ -86,3 +86,10 @@ out.close();
 [レファレンス](https://docs.python.org/ja/3/reference/index.html)
 
 ### 入出力
+基本的な入力，出力は`input()`，`print()`関数を使う
+```python
+n = int(input())
+print(n)
+```
+
+### 入出力
